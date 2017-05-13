@@ -19,6 +19,9 @@ gem 'devise'
 
 group :development, :test do
   gem 'byebug', platform: :mri
+  gem 'rails-pry'
+  gem 'shoulda-matchers'
+  gem 'rspec-rails'
 end
 
 group :development do
